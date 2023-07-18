@@ -8,6 +8,7 @@ layout: home
 # The 10th Workshop on Formal Reasoning in Distributed Algorithms
 
 Date: Monday October 9th, 2023
+Location: L'Aquila, Italy
 
 The workshop is organized as part of [DISC 2023](http://www.disc-conference.org).
 
@@ -112,10 +113,11 @@ they apply to distributed algorithms and systems:
 ## Organizers
 
 ### Main organizers
-* [Marijana Lazić](https://www7.in.tum.de/~lazic/) [(email)](mailto:lazic@in.tum.de)
-* Stephan Merz
+* [Marijana Lazić](https://www7.in.tum.de/~lazic/)
+* [Stephan Merz](https://members.loria.fr/Stephan.Merz/)
+
 ### With support of
-* [Giuliano Losa](https://www.losa.fr/) [(email)](mailto:giuliano@losa.fr)
+* [Giuliano Losa](https://www.losa.fr/)
 * Igor Konnov
 * [Swen Jacobs](https://cispa.de/en/people/swen.jacobs)
 * Joseph Widder

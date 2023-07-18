@@ -18,6 +18,8 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
 
 ## Program
 
+Coming soon.
+
 <!--
 Tentative program:
 * 9:00-9:45: Hagit Attiya, Technion

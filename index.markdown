@@ -17,6 +17,8 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
 * [Alexey Gotsman](https://software.imdea.org/~gotsman/), IMDEA Software Institute
 * [Ali Ebnenasir](https://www.mtu.edu/cs/department/people/faculty/ebnenasir/), Michigan Technological University
 * [Rotem Oshman](https://www.cs.tau.ac.il/~roshman/), Tel Aviv University
+* [Louis Penet de Monterno](https://www.lix.polytechnique.fr/member/443/view), Ecole Polytechnique, LIX
+* [Karine Altisen](https://www-verimag.imag.fr/Karine-Altisen-102), Verimag
 
 ## News
 

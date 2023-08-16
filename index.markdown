@@ -125,7 +125,7 @@ they apply to distributed algorithms and systems:
 ## Organizers
 
 ### Main organizers
-* [Marijana Lazić](https://www7.in.tum.de/~lazic/)
+* [Marijana Lazić](https://www.cs.cit.tum.de/tcs/personen/marijana-lazic/#c26286)
 * [Stephan Merz](https://members.loria.fr/Stephan.Merz/)
 
 ### With support of

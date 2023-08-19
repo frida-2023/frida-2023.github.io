@@ -20,7 +20,8 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
 * [Louis Penet de Monterno](https://www.lix.polytechnique.fr/member/443/view), Ecole Polytechnique, LIX
 * [Karine Altisen](https://www-verimag.imag.fr/Karine-Altisen-102), Verimag
 * [Manuel Bravo](https://angbrav.github.io/), Informal Systems
-* [Hagit Attiya](https://hagit.net.technion.ac.il/), Technion 
+* [Hagit Attiya](https://hagit.net.technion.ac.il/), Technion
+* [Gadi Taubenfeld](https://faculty.runi.ac.il/gadi/), Interdisciplinary Center in Herzliya
 
 ## News
 

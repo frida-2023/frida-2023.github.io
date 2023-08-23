@@ -14,18 +14,21 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
 
 ## Confirmed Speakers
 
-* [Alexey Gotsman](https://software.imdea.org/~gotsman/), IMDEA Software Institute
+* [Karine Altisen](https://www-verimag.imag.fr/Karine-Altisen-102), Verimag
+* [Hagit Attiya](https://hagit.net.technion.ac.il/), Technion
+* [Manuel Bravo](https://angbrav.github.io/), Informal Systems
 * [Ali Ebnenasir](https://www.mtu.edu/cs/department/people/faculty/ebnenasir/), Michigan Technological University
+* [Pierre Fraigniaud](https://www.irif.fr/users/pierref/index), CNRS & IRIF
+* [Alexey Gotsman](https://software.imdea.org/~gotsman/), IMDEA Software Institute
 * [Rotem Oshman](https://www.cs.tau.ac.il/~roshman/), Tel Aviv University
 * [Louis Penet de Monterno](https://www.lix.polytechnique.fr/member/443/view), Ecole Polytechnique, LIX
-* [Karine Altisen](https://www-verimag.imag.fr/Karine-Altisen-102), Verimag
-* [Manuel Bravo](https://angbrav.github.io/), Informal Systems
-* [Hagit Attiya](https://hagit.net.technion.ac.il/), Technion
 * [Gadi Taubenfeld](https://faculty.runi.ac.il/gadi/), Reichman University
 
+<!--
 ## News
 
 * July 18th: initial website created!
+-->
 
 ## Program
 
@@ -43,7 +46,7 @@ Tentative program:
         However, other desirable properties, like average complexity and information leakage, are not trace properties.
         These *hyperproperties* are not preserved by linearizable concurrent objects, especially when randomization is used.
         This talk will discuss formal ways to specify concurrent objects that preserve hyperproperties and their relation with verification methods like forward /           backward simulation.
-        We will show that certain concurrent objects cannot satisfy such specifications, and describe ways to mitigate these limitations. 
+        We will show that certain concurrent objects cannot satisfy such specifications, and describe ways to mitigate these limitations.
       </p>
     </details>
 * 9:45-10:30: Yoram Moses, Technion
@@ -51,7 +54,7 @@ Tentative program:
     <summary>On Direct and Indirect Information in Distributed Protocols (click to expand the abstract)</summary>
       <br>
       <p>
-        I will discuss the role and uses of direct and indirect information in distributed protocols. In particular, I will describe a protocol based on indirect information whose formal verification is offered as an interesting challenge. 
+        I will discuss the role and uses of direct and indirect information in distributed protocols. In particular, I will describe a protocol based on indirect information whose formal verification is offered as an interesting challenge.
       </p>
     </details>
 * --Coffee Break--
@@ -60,7 +63,7 @@ Tentative program:
     <summary>Quorum Tree Abstractions of Consensus Protocols (click to expand the abstract)</summary>
       <br>
       <p>
-        Distributed algorithms solving agreement problems like consensus or state machine replication are essential components of modern fault-tolerant distributed services. They are also notoriously hard to understand and reason about. Their complexity stems from the different assumptions on the environment they operate with, i.e., process or network link failures, Byzantine failures etc. In this talk, I will describe a novel abstract representation of the dynamics of such protocols which focuses on quorums of responses (votes) to a request (proposal) that form during a run of the protocol. We show that focusing on such quorums, a run of a protocol can be viewed as working over a tree structure where different branches represent different possible outcomes of the protocol, the goal being to stabilize on the choice of a fixed branch. This abstraction resembles the description of recent protocols used in Blockchain infrastructures, e.g., the protocol supporting Bitcoin or Hotstuff. We show that this abstraction supports reasoning about the safety of various algorithms, e.g., Paxos, PBFT, Raft, and HotStuff, in a uniform way. In general, it provides a novel induction based argument for proving that such protocols are safe. This is joint work with Berk Cirisci and Suha Orhun Mutluergil. 
+        Distributed algorithms solving agreement problems like consensus or state machine replication are essential components of modern fault-tolerant distributed services. They are also notoriously hard to understand and reason about. Their complexity stems from the different assumptions on the environment they operate with, i.e., process or network link failures, Byzantine failures etc. In this talk, I will describe a novel abstract representation of the dynamics of such protocols which focuses on quorums of responses (votes) to a request (proposal) that form during a run of the protocol. We show that focusing on such quorums, a run of a protocol can be viewed as working over a tree structure where different branches represent different possible outcomes of the protocol, the goal being to stabilize on the choice of a fixed branch. This abstraction resembles the description of recent protocols used in Blockchain infrastructures, e.g., the protocol supporting Bitcoin or Hotstuff. We show that this abstraction supports reasoning about the safety of various algorithms, e.g., Paxos, PBFT, Raft, and HotStuff, in a uniform way. In general, it provides a novel induction based argument for proving that such protocols are safe. This is joint work with Berk Cirisci and Suha Orhun Mutluergil.
       </p>
     </details>
 * 11:45-12:30: Ori Lahav, Tel Aviv University
@@ -85,7 +88,7 @@ Tentative program:
     <summary>Eliminating Message Counters in Threshold Automata (click to expand the abstract)</summary>
       <br>
       <p>
-        Threshold automata were introduced to give a formal semantics to distributed algorithms in a way that supports automated verification. While transitions in threshold automata are guarded by conditions over the number of globally sent messages, conditions in the pseudocode descriptions of distributed algorithms are usually formulated over the number of locally received messages. In this talk, we present an automated method to close the gap between these two representations. We propose threshold automata with guards over the number of received messages and present abstractions into guards over the number of sent messages, by eliminating the receive message counters. Our approach allows us for the first time to fully automatically verify models of both synchronous, asynchronous, and randomized distributed algorithms that are in one-to-one correspondence with their pseudocode. 
+        Threshold automata were introduced to give a formal semantics to distributed algorithms in a way that supports automated verification. While transitions in threshold automata are guarded by conditions over the number of globally sent messages, conditions in the pseudocode descriptions of distributed algorithms are usually formulated over the number of locally received messages. In this talk, we present an automated method to close the gap between these two representations. We propose threshold automata with guards over the number of received messages and present abstractions into guards over the number of sent messages, by eliminating the receive message counters. Our approach allows us for the first time to fully automatically verify models of both synchronous, asynchronous, and randomized distributed algorithms that are in one-to-one correspondence with their pseudocode.
       </p>
     </details>
 -->

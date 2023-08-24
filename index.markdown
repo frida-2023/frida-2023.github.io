@@ -14,14 +14,14 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
 
 ## Confirmed Speakers
 
-* [Karine Altisen](https://www-verimag.imag.fr/Karine-Altisen-102), Verimag
+* [Karine Altisen](https://www-verimag.imag.fr/Karine-Altisen-102), University of Grenoble & Verimag
 * [Hagit Attiya](https://hagit.net.technion.ac.il/), Technion
 * [Manuel Bravo](https://angbrav.github.io/), Informal Systems
 * [Ali Ebnenasir](https://www.mtu.edu/cs/department/people/faculty/ebnenasir/), Michigan Technological University
 * [Pierre Fraigniaud](https://www.irif.fr/users/pierref/index), CNRS & IRIF
 * [Alexey Gotsman](https://software.imdea.org/~gotsman/), IMDEA Software Institute
 * [Rotem Oshman](https://www.cs.tau.ac.il/~roshman/), Tel Aviv University
-* [Louis Penet de Monterno](https://www.lix.polytechnique.fr/member/443/view), Ecole Polytechnique, LIX
+* [Louis Penet de Monterno](https://www.lix.polytechnique.fr/member/443/view), Ecole Polytechnique & LIX
 * [Gadi Taubenfeld](https://faculty.runi.ac.il/gadi/), Reichman University
 
 <!--
@@ -32,66 +32,82 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
 
 ## Program
 
-Coming soon.
-
-<!--
-Tentative program:
 * 9:00-9:45: Hagit Attiya, Technion
     <details>
-    <summary>Preserving Hyperproperties when Using Concurrent Objects (click to expand the abstract)</summary>
+    <summary>Faithful Simulation of Randomized BFT Protocols on Block DAGs (click to expand the abstract)</summary>
       <br>
       <p>
-        Linearizability, a consistency condition for concurrent objects, is known to preserve trace properties.
-        This suffices for modular usage of concurrent objects in applications, deriving their safety properties from the abstract object they implement.
-        However, other desirable properties, like average complexity and information leakage, are not trace properties.
-        These *hyperproperties* are not preserved by linearizable concurrent objects, especially when randomization is used.
-        This talk will discuss formal ways to specify concurrent objects that preserve hyperproperties and their relation with verification methods like forward /           backward simulation.
-        We will show that certain concurrent objects cannot satisfy such specifications, and describe ways to mitigate these limitations.
+        Byzantine Fault-Tolerant (BFT) protocols that are based on Directed Acyclic Graphs (DAGs) are attractive due to their many advantages in asynchronous blockchain systems. Many DAG-based BFT protocols rely on randomization, since they are used for agreement and ordering of transaction, which cannot be achieved deterministically in asynchronous systems. Randomization is achieved either through local sources of randomness, or by employing shared objects that provide a common source of randomness, eg, common coins. This paper shows how to simulate DAG-based BFT protocols that use public coins and shared objects, like common coins. Our simulation is faithful in the sense that it precisely preserves the safety and liveness properties of the original BFT protocol, and in particular, their probability distribution.
+
+Joint work with Constantin Enea and Shafik Nassar
       </p>
     </details>
-* 9:45-10:30: Yoram Moses, Technion
+* 9:45-10:30: Gadi Taubenfeld, Reichman University
     <details>
-    <summary>On Direct and Indirect Information in Distributed Protocols (click to expand the abstract)</summary>
+    <summary>TBA (click to expand the abstract)</summary>
       <br>
       <p>
-        I will discuss the role and uses of direct and indirect information in distributed protocols. In particular, I will describe a protocol based on indirect information whose formal verification is offered as an interesting challenge.
+        TBA
       </p>
     </details>
 * --Coffee Break--
-* 11:00-11:45: Constantin Enea, Ecole Polytechnique, LIX
+* 11:00-11:45: Alexey Gotsman, IMDEA Software Institute
     <details>
-    <summary>Quorum Tree Abstractions of Consensus Protocols (click to expand the abstract)</summary>
+    <summary>TBA (click to expand the abstract)</summary>
       <br>
       <p>
-        Distributed algorithms solving agreement problems like consensus or state machine replication are essential components of modern fault-tolerant distributed services. They are also notoriously hard to understand and reason about. Their complexity stems from the different assumptions on the environment they operate with, i.e., process or network link failures, Byzantine failures etc. In this talk, I will describe a novel abstract representation of the dynamics of such protocols which focuses on quorums of responses (votes) to a request (proposal) that form during a run of the protocol. We show that focusing on such quorums, a run of a protocol can be viewed as working over a tree structure where different branches represent different possible outcomes of the protocol, the goal being to stabilize on the choice of a fixed branch. This abstraction resembles the description of recent protocols used in Blockchain infrastructures, e.g., the protocol supporting Bitcoin or Hotstuff. We show that this abstraction supports reasoning about the safety of various algorithms, e.g., Paxos, PBFT, Raft, and HotStuff, in a uniform way. In general, it provides a novel induction based argument for proving that such protocols are safe. This is joint work with Berk Cirisci and Suha Orhun Mutluergil.
+        TBA
       </p>
     </details>
-* 11:45-12:30: Ori Lahav, Tel Aviv University
+* 11:45-12:30: Karine Altisen, University of Grenoble & Verimag
     <details>
-    <summary>What's Decidable about Causally Consistent Shared Memory? (click to expand the abstract)</summary>
+    <summary>TBA (click to expand the abstract)</summary>
       <br>
       <p>
-        While causal consistency is one of the most fundamental consistency models weaker than sequential consistency, the decidability of safety verification for (finite-state) concurrent programs running under causally consistent shared-memories is still unclear. We establish the decidability of this problem for two standard and well-studied variants of causal consistency. To do so, for each of the variants, we develop an equivalent "lossy" operational semantics, and show that it constitutes a well-structured transition system, which enables decidable verification. The two novel semantics are based on similar key observations, which, we believe, may also be of independent use in the investigation of weakly consistent shared memory models and their verification. Interestingly, our results are in contrast to the undecidability of this problem under the Release/Acquire fragment of the C/C++11 memory model, which forms another variant of a causally consistent memory that, in terms of allowed outcomes, lies strictly between the two models we study. Nevertheless, all these variants coincide for write/write-race-free programs, which implies the decidability of verification for such programs under Release/Acquire.
-(Joint work with Udi Boker, partly presented at PLDI'20)
+        TBA
       </p>
     </details>
 * --Lunch Break--
-* 14:00-14:45: Bernhard Kragl, AWS
+* 14:00-14:45: Manuel Bravo, Informal Systems
     <details>
-    <summary>Using Lightweight Formal Methods to Validate a Key-Value Storage Node in Amazon S3 (click to expand the abstract)</summary>
+    <summary>TBA (click to expand the abstract)</summary>
       <br>
       <p>
-        This talk reports our experience applying lightweight formal methods to validate the correctness of ShardStore, a new key-value storage node implementation for the Amazon S3 cloud object storage service. By "lightweight formal methods" we mean a pragmatic approach to verifying the correctness of a production storage node that is under ongoing feature development by a full-time engineering team. We do not aim to achieve full formal verification, but instead emphasize automation, usability, and the ability to continually ensure correctness as both software and its specification evolve over time. Our approach decomposes correctness into independent properties, each checked by the most appropriate tool, and develops executable reference models as specifications to be checked against the implementation. Our work has prevented 16 issues from reaching production, including subtle crash consistency and concurrency problems, and has been extended by non-formal-methods experts to check new features and properties as ShardStore has evolved.
+        TBA
       </p>
-* 14:45-15:30: Ilina Stoilkovska, Amazon
+* 14:45-15:30: Rotem Oshman, Tel Aviv University
     <details>
-    <summary>Eliminating Message Counters in Threshold Automata (click to expand the abstract)</summary>
+    <summary>TBA (click to expand the abstract)</summary>
       <br>
       <p>
-        Threshold automata were introduced to give a formal semantics to distributed algorithms in a way that supports automated verification. While transitions in threshold automata are guarded by conditions over the number of globally sent messages, conditions in the pseudocode descriptions of distributed algorithms are usually formulated over the number of locally received messages. In this talk, we present an automated method to close the gap between these two representations. We propose threshold automata with guards over the number of received messages and present abstractions into guards over the number of sent messages, by eliminating the receive message counters. Our approach allows us for the first time to fully automatically verify models of both synchronous, asynchronous, and randomized distributed algorithms that are in one-to-one correspondence with their pseudocode.
+        TBA
       </p>
     </details>
--->
+* --Coffee Break--
+* 16:00-16:30: Louis Penet de Monterno, École Polytechnique & LIX
+    <details>
+    <summary>TBA (click to expand the abstract)</summary>
+      <br>
+      <p>
+        TBA
+      </p>
+    </details>
+* 16:30-17:15: Ali Ebnenasir, Michigan Technological University
+    <details>
+    <summary>TBA (click to expand the abstract)</summary>
+      <br>
+      <p>
+        TBA
+      </p>
+    </details>
+* 16:30-17:15: Pierre Fraigniaud, CNRS & IRIF
+    <details>
+    <summary>TBA (click to expand the abstract)</summary>
+      <br>
+      <p>
+        TBA
+      </p>
+    </details>
 
 ## Summary of the workshop
 

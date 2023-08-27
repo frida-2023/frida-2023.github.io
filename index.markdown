@@ -53,7 +53,7 @@ Joint work with Constantin Enea and Shafik Nassar
 * --Coffee Break--
 * 11:00-11:45: Alexey Gotsman, IMDEA Software Institute
     <details>
-    <summary>TBA (click to expand the abstract)</summary>
+    <summary>Synchronizer - a recipe for building correct algorithms under partial synchrony (click to expand the abstract)</summary>
       <br>
       <p>
         TBA

@@ -38,8 +38,8 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
       <br>
       <p>
         Byzantine Fault-Tolerant (BFT) protocols that are based on Directed Acyclic Graphs (DAGs) are attractive due to their many advantages in asynchronous blockchain systems. Many DAG-based BFT protocols rely on randomization, since they are used for agreement and ordering of transaction, which cannot be achieved deterministically in asynchronous systems. Randomization is achieved either through local sources of randomness, or by employing shared objects that provide a common source of randomness, eg, common coins. This paper shows how to simulate DAG-based BFT protocols that use public coins and shared objects, like common coins. Our simulation is faithful in the sense that it precisely preserves the safety and liveness properties of the original BFT protocol, and in particular, their probability distribution.
-
-Joint work with Constantin Enea and Shafik Nassar
+		
+		Joint work with Constantin Enea and Shafik Nassar
       </p>
     </details>
 * 9:45-10:30: Gadi Taubenfeld, Reichman University

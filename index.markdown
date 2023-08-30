@@ -43,10 +43,10 @@ In this talk I will briefly survey the area of distributed certification, and th
     </details>
 * 9:45-10:30: Gadi Taubenfeld, Reichman University
     <details>
-    <summary>TBA (click to expand the abstract)</summary>
+    <summary>Reaching Consensus in Weak Models (click to expand the abstract)</summary>
       <br>
       <p>
-        TBA
+        I will present several results for the consensus and mutual exclusion problems in weak shared memory models (fully anonymous systems and contention-related crash failures) and discuss how formal methods can help us achieve such results.
       </p>
     </details>
 * --Coffee Break--

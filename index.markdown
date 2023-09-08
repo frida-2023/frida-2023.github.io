@@ -89,10 +89,16 @@ This talk is a summary of the libraries developed in PADEC.
 * --Coffee Break--
 * 16:00-16:30: Louis Penet de Monterno, École Polytechnique & LIX
     <details>
-    <summary>TBA (click to expand the abstract)</summary>
+    <summary>Formal Verification of a Firing Algorithm (click to expand the abstract)</summary>
       <br>
       <p>
-        TBA
+        We consider a distributed system that operates with synchronized rounds,
+but with no guarantee that all agents start in the same round.
+We introduce the mod P-synchronization problem, which is a weakening of the firing squad problem:
+all agents must eventually send a certain signal - called firing - not at the same round, but at rounds that are equal modulo P.
+We introduce an algorithm solving this problem, while tolerating a dynamic communication network.
+However, this algorithm is highly combinatorial and its proof is error-prone.
+To increase our confidence in the correctness of our result, we provided a formal proof written with the Isabelle proof assistant.
       </p>
     </details>
 * 16:30-17:15: Ali Ebnenasir, Michigan Technological University

@@ -32,13 +32,14 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
 
 ## Program
 
-* 9:00-9:45:  Rotem Oshman, Tel Aviv University
+* 9:00-9:45: Hagit Attiya, Technion
     <details>
-    <summary>Distributed Certification (click to expand the abstract)</summary>
+    <summary>Faithful Simulation of Randomized BFT Protocols on Block DAGs (click to expand the abstract)</summary>
       <br>
       <p>
-        In distributed certification, our goal is to certify that a network has a certain desired property - e.g., the network is connected, or the internal states of its nodes encode a valid spanning tree of the network. To this end, we store a certificate at each node, and the nodes can then interact with one another in order to decide whether to accept or reject the certificates. Our goal is to minimize the length of the certificates, the number of rounds the nodes spend interacting with one another, and the amount of communication.
-In this talk I will briefly survey the area of distributed certification, and then discuss some recent research directions in the area of distributed certification, such as  adding privacy requirements and introducing computational assumptions. I will also discuss some potential areas where I believe formal methods can help us "certify the certification".
+        Byzantine Fault-Tolerant (BFT) protocols that are based on Directed Acyclic Graphs (DAGs) are attractive due to their many advantages in asynchronous blockchain systems. Many DAG-based BFT protocols rely on randomization, since they are used for agreement and ordering of transaction, which cannot be achieved deterministically in asynchronous systems. Randomization is achieved either through local sources of randomness, or by employing shared objects that provide a common source of randomness, eg, common coins. This paper shows how to simulate DAG-based BFT protocols that use public coins and shared objects, like common coins. Our simulation is faithful in the sense that it precisely preserves the safety and liveness properties of the original BFT protocol, and in particular, their probability distribution.<br>
+
+		Joint work with Constantin Enea and Shafik Nassar
       </p>
     </details>
 * 9:45-10:30: Gadi Taubenfeld, Reichman University
@@ -76,14 +77,13 @@ This talk is a summary of the libraries developed in PADEC.
       <p>
         TBA
       </p>
-* 14:45-15:30: Hagit Attiya, Technion
+* 14:45-15:30: Rotem Oshman, Tel Aviv University
     <details>
-    <summary>Faithful Simulation of Randomized BFT Protocols on Block DAGs (click to expand the abstract)</summary>
+    <summary>Distributed Certification (click to expand the abstract)</summary>
       <br>
       <p>
-        Byzantine Fault-Tolerant (BFT) protocols that are based on Directed Acyclic Graphs (DAGs) are attractive due to their many advantages in asynchronous blockchain systems. Many DAG-based BFT protocols rely on randomization, since they are used for agreement and ordering of transaction, which cannot be achieved deterministically in asynchronous systems. Randomization is achieved either through local sources of randomness, or by employing shared objects that provide a common source of randomness, eg, common coins. This paper shows how to simulate DAG-based BFT protocols that use public coins and shared objects, like common coins. Our simulation is faithful in the sense that it precisely preserves the safety and liveness properties of the original BFT protocol, and in particular, their probability distribution.<br>
-
-		Joint work with Constantin Enea and Shafik Nassar
+        In distributed certification, our goal is to certify that a network has a certain desired property - e.g., the network is connected, or the internal states of its nodes encode a valid spanning tree of the network. To this end, we store a certificate at each node, and the nodes can then interact with one another in order to decide whether to accept or reject the certificates. Our goal is to minimize the length of the certificates, the number of rounds the nodes spend interacting with one another, and the amount of communication.
+In this talk I will briefly survey the area of distributed certification, and then discuss some recent research directions in the area of distributed certification, such as  adding privacy requirements and introducing computational assumptions. I will also discuss some potential areas where I believe formal methods can help us "certify the certification".
       </p>
     </details>
 * --Coffee Break--

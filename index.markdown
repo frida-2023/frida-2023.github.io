@@ -77,6 +77,7 @@ This talk is a summary of the libraries developed in PADEC.
       <p>
         In this talk, I will present how we use formal methods at Informal Systems. In particular, I will talk about formal modeling and Quint, a new specification language that combines the robust theoretical basis of the Temporal Logic of Actions (TLA) with state-of-the-art static analysis and development tooling. I will present several examples in which formal modeling proved to be useful in the software development process, and the challenges of using formal methods at Informal Systems.
       </p>
+    </details>
 * 14:45-15:30: Rotem Oshman, Tel Aviv University
     <details>
     <summary>Distributed Certification (click to expand the abstract)</summary>

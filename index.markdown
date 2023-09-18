@@ -64,8 +64,9 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
     <summary>PADEC - Interactive Proof for Self-Stabilizing Algorithms (click to expand the abstract)</summary>
       <br>
       <p>
-        PADEC is a framework to build certified proofs of self-stabilizing algorithms using the Coq proof assistant. The framework includes the definition of the computational model, tools for time complexity and composition of algorithms, lemmas for common proof patterns and case studies. A constant purpose was to convince the designers that what we formally prove using PADEC is what they expect by using definitions that are (syntactically) as close as possible to their usual definitions.<br>
-
+        PADEC is a framework to build certified proofs of self-stabilizing algorithms using the Coq proof assistant. The framework includes the definition of the computational model, tools for time complexity and composition of algorithms, lemmas for common proof patterns and case studies. A constant purpose was to convince the designers that what we formally prove using PADEC is what they expect by using definitions that are (syntactically) as close as possible to their usual definitions.
+      </p>
+      <p>
 This talk is a summary of the libraries developed in PADEC.
       </p>
     </details>

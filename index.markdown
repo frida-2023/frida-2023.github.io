@@ -51,7 +51,7 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
       </p>
     </details>
 * --Coffee Break--
-* 11:00-11:45: Alexey Gotsman, IMDEA Software Institute
+* 10:50-11:35: Alexey Gotsman, IMDEA Software Institute
     <details>
     <summary>Synchronizer - a recipe for building correct algorithms under partial synchrony (click to expand the abstract)</summary>
       <br>
@@ -59,7 +59,7 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
         TBA
       </p>
     </details>
-* 11:45-12:30: Karine Altisen, University of Grenoble & Verimag
+* 11:35-12:20: Karine Altisen, University of Grenoble & Verimag
     <details>
     <summary>PADEC - Interactive Proof for Self-Stabilizing Algorithms (click to expand the abstract)</summary>
       <br>

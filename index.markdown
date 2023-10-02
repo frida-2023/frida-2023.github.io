@@ -56,7 +56,7 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
     <summary>Synchronizer - a recipe for building correct algorithms under partial synchrony (click to expand the abstract)</summary>
       <br>
       <p>
-        TBA
+        Due to the FLP impossibility result, consensus protocols usually guarantee liveness only when the network is synchronous, as formalized by the partial synchrony model. To this end, the protocols are structured into a sequence of views where a dedicated leader drives the protocol towards a decision. However, synchronizing processes in the same view is challenging and can be a source of subtle bugs. I will present a formal abstraction of a synchronizer, which encapsulates the required functionality and thereby simplifies the design of consensus protocols under partial synchrony and their proofs of correctness. Synchronizers can be used in settings with either crashes or Byzantine faults. In the talk I will illustrate their use by showing how to achieve consensus liveness in the presence of crash faults and intermittently connected channels - a setting often occurring in practical cloud deployments.
       </p>
     </details>
 * 11:35-12:20: Karine Altisen, University of Grenoble & Verimag

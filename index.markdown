@@ -113,10 +113,10 @@ To increase our confidence in the correctness of our result, we provided a forma
     </details>
 * 17:15-18:00: Pierre Fraigniaud, CNRS & IRIF
     <details>
-    <summary>TBA (click to expand the abstract)</summary>
+    <summary>Decentralized Asynchronous Crash-resilient Runtime Verification (click to expand the abstract)</summary>
       <br>
       <p>
-        TBA
+        Runtime verification is a lightweight method for monitoring the formal specification of a system during its execution. It has recently been shown that a given state predicate can be monitored consistently by a set of crash-prone asynchronous distributed monitors observing the system, only if each monitor can emit verdicts taken from a large enough finite set. We revisit this impossibility result in the concrete context of linear-time logic (LTL) semantics for runtime verification, that is, when the correctness of the system is specified by an LTL formula on its execution traces. First, we show that monitors synthesized based on the 4-valued semantics of LTL (RV-LTL) may result in inconsistent distributed monitoring, even for some simple LTL formulas. More generally, given any LTL formula φ, we relate the number of different verdicts required by the monitors for consistently monitoring φ, with a specific structural characteristic of φ called its alternation number. Specifically, we show that, for every k≥0, there is an LTL formula φ with alternation number k that cannot be verified at runtime by distributed monitors emitting verdicts from a set of cardinality smaller than k+1. On the positive side, we define a family of logics, called distributed LTL (abbreviated as DLTL), parameterized by k≥0, which refines RV-LTL by incorporating 2k+4 truth values. Our main contribution is to show that, for every k≥0, every LTL formula φ with alternation number k can be consistently monitored by distributed monitors, each running an automaton based on a (k+4)-valued logic taken from the DLTL family.
       </p>
     </details>
 

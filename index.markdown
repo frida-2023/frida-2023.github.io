@@ -10,7 +10,7 @@ layout: home
 Date: Monday October 9th, 2023
 Location: L'Aquila, Italy
 
-The workshop is organized as part of [DISC 2023](http://www.disc-conference.org).
+The workshop is organized as part of [DISC 023](http://www.disc-conference.org).
 
 ## Confirmed Speakers
 
@@ -24,11 +24,12 @@ The workshop is organized as part of [DISC 2023](http://www.disc-conference.org)
 * [Louis Penet de Monterno](https://www.lix.polytechnique.fr/member/443/view), Ecole Polytechnique & LIX
 * [Gadi Taubenfeld](https://faculty.runi.ac.il/gadi/), Reichman University
 
-<!--
-## News
+## Attending via Zoom
 
-* July 18th: initial website created!
--->
+For participants who cannot attend the workshop, in particular those affected by the situation in Israel, a [Zoom meeting](https://cnrs.zoom.us/j/93680383610?pwd=MkNhc0FFVzI3elVkSytrWFpYc2RxQT09) will be improvised as a degraded experience.
+
+* Meeting ID: 936 8038 3610
+* Passcode: 82DbPE
 
 ## Program
 

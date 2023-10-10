@@ -24,12 +24,14 @@ The workshop is organized as part of [DISC 023](http://www.disc-conference.org).
 * [Louis Penet de Monterno](https://www.lix.polytechnique.fr/member/443/view), Ecole Polytechnique & LIX
 * [Gadi Taubenfeld](https://faculty.runi.ac.il/gadi/), Reichman University
 
+<!--
 ## Attending via Zoom
 
 For participants who cannot attend the workshop, in particular those affected by the situation in Israel, a [Zoom meeting](https://cnrs.zoom.us/j/93680383610?pwd=MkNhc0FFVzI3elVkSytrWFpYc2RxQT09) will be improvised as a degraded experience.
 
 * Meeting ID: 936 8038 3610
 * Passcode: 82DbPE
+-->
 
 ## Program
 
@@ -62,7 +64,7 @@ For participants who cannot attend the workshop, in particular those affected by
     </details>
 * 11:35-12:20: Karine Altisen, University of Grenoble & Verimag
     <details>
-    <summary>PADEC - Interactive Proof for Self-Stabilizing Algorithms (click to expand the abstract)</summary>
+    <summary>[PADEC - Interactive Proof for Self-Stabilizing Algorithms[(presentations/altisen.pdf)] (click to expand the abstract)</summary>
       <br>
       <p>
         PADEC is a framework to build certified proofs of self-stabilizing algorithms using the Coq proof assistant. The framework includes the definition of the computational model, tools for time complexity and composition of algorithms, lemmas for common proof patterns and case studies. A constant purpose was to convince the designers that what we formally prove using PADEC is what they expect by using definitions that are (syntactically) as close as possible to their usual definitions.

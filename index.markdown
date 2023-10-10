@@ -64,7 +64,7 @@ For participants who cannot attend the workshop, in particular those affected by
     </details>
 * 11:35-12:20: Karine Altisen, University of Grenoble & Verimag
     <details>
-    <summary>[PADEC - Interactive Proof for Self-Stabilizing Algorithms]({{https://frida-2023.github.io}}{presentations/altisen.pdf}) (click to expand the abstract)</summary>
+    <summary>[PADEC - Interactive Proof for Self-Stabilizing Algorithms](/altisen.pdf) (click to expand the abstract)</summary>
       <br>
       <p>
         PADEC is a framework to build certified proofs of self-stabilizing algorithms using the Coq proof assistant. The framework includes the definition of the computational model, tools for time complexity and composition of algorithms, lemmas for common proof patterns and case studies. A constant purpose was to convince the designers that what we formally prove using PADEC is what they expect by using definitions that are (syntactically) as close as possible to their usual definitions.

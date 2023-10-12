@@ -37,7 +37,7 @@ For participants who cannot attend the workshop, in particular those affected by
 
 * 9:00-9:45: Hagit Attiya, Technion
     <details>
-    <summary>Faithful Simulation of Randomized BFT Protocols on Block DAGs (click to expand the abstract)</summary>
+    <summary><a href="static/attiya.pdf">Faithful Simulation of Randomized BFT Protocols on Block DAGs</a> (click to expand the abstract)</summary>
       <br>
       <p>
         Byzantine Fault-Tolerant (BFT) protocols that are based on Directed Acyclic Graphs (DAGs) are attractive due to their many advantages in asynchronous blockchain systems. Many DAG-based BFT protocols rely on randomization, since they are used for agreement and ordering of transaction, which cannot be achieved deterministically in asynchronous systems. Randomization is achieved either through local sources of randomness, or by employing shared objects that provide a common source of randomness, eg, common coins. This paper shows how to simulate DAG-based BFT protocols that use public coins and shared objects, like common coins. Our simulation is faithful in the sense that it precisely preserves the safety and liveness properties of the original BFT protocol, and in particular, their probability distribution.<br>
@@ -56,7 +56,7 @@ For participants who cannot attend the workshop, in particular those affected by
 * --Coffee Break--
 * 10:50-11:35: Alexey Gotsman, IMDEA Software Institute
     <details>
-    <summary>Synchronizer - a recipe for building correct algorithms under partial synchrony (click to expand the abstract)</summary>
+    <summary><a href="static/gotsman.pdf">Synchronizer - a recipe for building correct algorithms under partial synchrony</a> (click to expand the abstract)</summary>
       <br>
       <p>
         Due to the FLP impossibility result, consensus protocols usually guarantee liveness only when the network is synchronous, as formalized by the partial synchrony model. To this end, the protocols are structured into a sequence of views where a dedicated leader drives the protocol towards a decision. However, synchronizing processes in the same view is challenging and can be a source of subtle bugs. I will present a formal abstraction of a synchronizer, which encapsulates the required functionality and thereby simplifies the design of consensus protocols under partial synchrony and their proofs of correctness. Synchronizers can be used in settings with either crashes or Byzantine faults. In the talk I will illustrate their use by showing how to achieve consensus liveness in the presence of crash faults and intermittently connected channels - a setting often occurring in practical cloud deployments.
@@ -76,7 +76,7 @@ This talk is a summary of the libraries developed in PADEC.
 * --Lunch Break--
 * 14:00-14:45: Manuel Bravo, Informal Systems
     <details>
-    <summary>Formal modeling at Informal Systems (click to expand the abstract)</summary>
+    <summary><a href="static/bravo.pdf">Formal modeling at Informal Systems</a> (click to expand the abstract)</summary>
       <br>
       <p>
         In this talk, I will present how we use formal methods at Informal Systems. In particular, I will talk about formal modeling and Quint, a new specification language that combines the robust theoretical basis of the Temporal Logic of Actions (TLA) with state-of-the-art static analysis and development tooling. I will present several examples in which formal modeling proved to be useful in the software development process, and the challenges of using formal methods at Informal Systems.
@@ -94,7 +94,7 @@ In this talk I will briefly survey the area of distributed certification, and th
 * --Coffee Break--
 * 16:00-16:30: Louis Penet de Monterno, École Polytechnique & LIX
     <details>
-    <summary>Formal Verification of a Firing Algorithm (click to expand the abstract)</summary>
+    <summary><a href="static/penet.pdf">Formal Verification of a Firing Algorithm</a> (click to expand the abstract)</summary>
       <br>
       <p>
         We consider a distributed system that operates with synchronized rounds,
@@ -108,7 +108,7 @@ To increase our confidence in the correctness of our result, we provided a forma
     </details>
 * 16:30-17:15: Ali Ebnenasir, Michigan Technological University
     <details>
-    <summary>Topology and Property-Specific Verification and Synthesis of Parameterized Distributed Protocols (click to expand the abstract)</summary>
+    <summary><a href="static/ebnenasir.pdf">Topology and Property-Specific Verification and Synthesis of Parameterized Distributed Protocols</a> (click to expand the abstract)</summary>
       <br>
       <p>
         Verification and Synthesis (V&S) of Parameterized Distributed Protocols (PDPs) are undecidable problems, in general. To get around this undecidability result, many methods focus on specific families of protocols and/or devise semi-algorithms for V&S of PDPs with an arbitrary topology and for general safety and liveness properties. Most of such methods create an abstract model and prove its correctness, which implies the correctness of the PDP. However, the construction of abstract models by itself is a tedious task, sometimes due to assuming that the topology of the PDP is arbitrary and the property of interest for verification could be anything. In this talk, I will present a novel topology and property-specific method for V&S of PDPs, where instead of building abstract models, we identify local characterization of global failures (e.g., deadlocks and livelocks) in the local state space of template processes. Ideally, if such local characterizations are necessary and sufficient (for the existence of global failures), then detecting them can be done locally. To mitigate the V&S problem further, we focus on identifying such local characterizations in PDPs with elementary topologies (e.g., ring, tree, mesh). I will also discuss the problem of correctness-preserving composition of PDPs with elementary topologies towards synthesizing more complicated topologies. Further, I will show how local characterizations of global deadlocks and livelocks can be useful in V&S of self-stabilizing PDPs.
@@ -116,7 +116,7 @@ To increase our confidence in the correctness of our result, we provided a forma
     </details>
 * 17:15-18:00: Pierre Fraigniaud, CNRS & IRIF
     <details>
-    <summary>Decentralized Asynchronous Crash-resilient Runtime Verification (click to expand the abstract)</summary>
+    <summary><a href="static/fraigniaud.pdf">Decentralized Asynchronous Crash-resilient Runtime Verification</a> (click to expand the abstract)</summary>
       <br>
       <p>
         Runtime verification is a lightweight method for monitoring the formal specification of a system during its execution. It has recently been shown that a given state predicate can be monitored consistently by a set of crash-prone asynchronous distributed monitors observing the system, only if each monitor can emit verdicts taken from a large enough finite set. We revisit this impossibility result in the concrete context of linear-time logic (LTL) semantics for runtime verification, that is, when the correctness of the system is specified by an LTL formula on its execution traces. First, we show that monitors synthesized based on the 4-valued semantics of LTL (RV-LTL) may result in inconsistent distributed monitoring, even for some simple LTL formulas. More generally, given any LTL formula φ, we relate the number of different verdicts required by the monitors for consistently monitoring φ, with a specific structural characteristic of φ called its alternation number. Specifically, we show that, for every k≥0, there is an LTL formula φ with alternation number k that cannot be verified at runtime by distributed monitors emitting verdicts from a set of cardinality smaller than k+1. On the positive side, we define a family of logics, called distributed LTL (abbreviated as DLTL), parameterized by k≥0, which refines RV-LTL by incorporating 2k+4 truth values. Our main contribution is to show that, for every k≥0, every LTL formula φ with alternation number k can be consistently monitored by distributed monitors, each running an automaton based on a (k+4)-valued logic taken from the DLTL family.
